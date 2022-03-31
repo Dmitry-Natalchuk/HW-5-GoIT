@@ -17,6 +17,10 @@ body {
 a {
   text-decoration: none;
   color: var(--secondary-text-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 h1,
@@ -120,10 +124,18 @@ ul {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-icon {
   margin-right: 10px;
   fill: #757575;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel {
   display: flex;
@@ -132,6 +144,9 @@ ul {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel:focus .mail-icon,
 .tel:hover .mail-icon,
@@ -171,6 +186,10 @@ ul {
   font-size: 16px;
   color: var(--main-color);
   background: var(--accent-color);
+
+  transition-property: background, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-hero:hover,
 .button-hero:focus {
@@ -266,9 +285,17 @@ ul {
   height: 44px;
   background-color: #fff;
   border-radius: 50%;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .links {
   fill: #afb1b8;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .people-info:hover .links,
 .people-info:focus .links {
@@ -300,12 +327,20 @@ ul {
   border: 1px solid;
   border-color: #afb1b8;
   border-radius: 4px;
+
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client:not(:last-child) {
   margin-right: 30px;
 }
 .clients-icon {
   fill: #afb1b8;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .group-info {
   display: flex;
@@ -375,6 +410,10 @@ ul {
   height: 44px;
   border-radius: 50%;
   background-color: #757575;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .links-footer {
   fill: #fff;
@@ -403,6 +442,9 @@ ul {
   background: #f5f4fa;
   color: var(--secondary-text-color);
   border-radius: 4px;
+  transition-property: background, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-portfolio:focus,
 .button-portfolio:hover {
@@ -444,6 +486,10 @@ ul {
 .img-list {
   margin-left: 30px;
   margin-top: 30px;
+
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .img-list:focus,
 .img-list:hover {
